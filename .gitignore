@@ -1,0 +1,13 @@
+# macOS clutter
+.DS_Store
+
+# Python clutter
+__pycache__/
+*.pyc
+
+# Node clutter
+node_modules/
+
+# Editor clutter
+.vscode/
+.idea/
