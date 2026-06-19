@@ -1,0 +1,4 @@
+Reflection
+The line that took me the longest to get right was the input line because I had to make sure the user’s answer was cleaned with .strip().lower() before checking if it was yes or no.
+One bug I introduced and fixed was trying to run python service_checker.py instead of python3 service_checker.py. The terminal showed that python was not found, so I fixed it by using python3.
+If I needed to extend this script to handle 50 services instead of 5, I would add all 50 service names to the services list. The rest of the script would still work because the loop already goes through every service in the list.
